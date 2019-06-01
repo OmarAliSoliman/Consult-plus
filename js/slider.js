@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $("#testimonail-slider").owlCarousel({
+        items:1,
+        itemsDesktop:[1000,1],
+        itemsDesktopSmall:[979,1],
+        pagination:false,
+        navigation:true,
+        navigationText:["",""],
+        slideSpeed:1000,
+        autoplay:true
+    });
+  });
